@@ -1,0 +1,54 @@
+apply plugin: 'android'
+
+/*
+configurations {
+    provided{
+        dependencies.all { dep ->
+            configurations.default.exclude group: dep.group, module: dep.name
+        }
+    }
+    compile.extendsFrom provided
+}*/
+
+
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.1"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 15
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+/*
+sourceSets {
+    main {
+        compileClasspath += configurations.provided
+        runtimeClasspath += configurations.provided
+    }
+}*/
+
+
+
+dependencies {
+   // compile 'com.android.support:appcompat-v7:+'
+    compile 'com.android.support:support-v4:18.0.+'
+    compile 'com.github.machinarius:preferencefragment:0.1.1'
+    //runtime files('libs/android-framework-v19.jar')
+    provided files('../libs/XposedBridgeApi.jar')
+    //  compileOnly files('../libs/android-framework-v19.jar')
+    //compileOnly files('../libs/full_framework_15.jar')
+   // provided files('../libs/framework_intermediates-classes-full-debug.jar')
+    provided files('../libs/classes-full-debug.jar')
+    provided files('../libs/settings.jar')
+}
+
