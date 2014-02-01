@@ -1,8 +1,6 @@
-package com.conceptualideas.xposedlockscreen;
+package com.conceptualideas.cyanlockscreen;
 
 
-import android.app.Activity;
-import android.content.Context;
 import android.os.IBinder;
 import android.os.RemoteException;
 import android.os.ServiceManager;

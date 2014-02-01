@@ -1,4 +1,4 @@
-package com.conceptualideas.xposedlockscreen;
+package com.conceptualideas.cyanlockscreen;
 
 import android.graphics.*;
 import android.os.Parcel;
@@ -9,8 +9,6 @@ import android.view.View;
 import com.android.internal.widget.LockPatternUtils;
 import com.android.internal.widget.LockPatternView;
 import de.robv.android.xposed.XC_MethodHook;
-import de.robv.android.xposed.XC_MethodReplacement;
-import de.robv.android.xposed.XposedBridge;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

@@ -1,15 +1,13 @@
-package com.conceptualideas.xposedlockscreen;
+package com.conceptualideas.cyanlockscreen;
 
 import android.content.res.XModuleResources;
-import android.os.Build;
 import com.android.internal.widget.LockPatternView;
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.XposedBridge;
 import de.robv.android.xposed.callbacks.XC_InitPackageResources;
-import de.robv.android.xposed.
-        callbacks.XC_LoadPackage;
+import de.robv.android.xposed.callbacks.XC_LoadPackage;
 
 
 import java.util.List;

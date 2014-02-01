@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.conceptualideas.xposedlockscreen;
+package com.conceptualideas.cyanlockscreen;
 
 import android.app.Dialog;
 import android.content.ContentResolver;

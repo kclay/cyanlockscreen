@@ -1,4 +1,4 @@
-package com.conceptualideas.xposedlockscreen;
+package com.conceptualideas.cyanlockscreen;
 
 
 import android.content.Intent;

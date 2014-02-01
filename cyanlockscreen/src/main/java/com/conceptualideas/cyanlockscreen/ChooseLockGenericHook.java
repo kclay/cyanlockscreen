@@ -1,14 +1,10 @@
-package com.conceptualideas.xposedlockscreen;
+package com.conceptualideas.cyanlockscreen;
 
 import android.app.admin.DevicePolicyManager;
 import android.content.Intent;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
-import de.robv.android.xposed.XC_MethodHook;
-import de.robv.android.xposed.XSharedPreferences;
 import de.robv.android.xposed.XposedBridge;
-
-import java.util.concurrent.Callable;
 
 import static de.robv.android.xposed.XposedHelpers.*;
 

@@ -1,4 +1,4 @@
-package com.conceptualideas.xposedlockscreen;
+package com.conceptualideas.cyanlockscreen;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,7 +14,6 @@ import android.view.ViewGroup;
 import com.android.internal.widget.LockPatternUtils;
 import com.android.internal.widget.LockPatternView;
 import com.google.android.collect.Lists;
-import de.robv.android.xposed.XposedBridge;
 
 import java.util.Collections;
 import java.util.List;
