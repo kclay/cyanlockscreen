@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.conceptualideas.xposedlockscreen" >
+    package="com.conceptualideas.cyanlockscreen" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
     <application
@@ -16,6 +16,8 @@
         <meta-data
             android:name="xposedminversion"
             android:value="30+" />
+
+        <meta-data android:value="Allows the use of 3x3,4x4,5x5 or 6x6 patterns for your lockscreen, just like Cyanogenmod." android:name="xposeddescription"/>
 
     </application>
 

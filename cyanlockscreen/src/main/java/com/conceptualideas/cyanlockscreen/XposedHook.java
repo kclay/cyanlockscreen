@@ -2,6 +2,7 @@ package com.conceptualideas.cyanlockscreen;
 
 import android.content.res.XModuleResources;
 import com.android.internal.widget.LockPatternView;
+
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.IXposedHookZygoteInit;
