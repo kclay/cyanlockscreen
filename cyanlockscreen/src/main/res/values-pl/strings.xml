@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Xposed LockScreen</string>
+    <string name="lock_pattern_size_3" translatable="false">3x3</string>
+    <string name="lock_pattern_size_4" translatable="false">4x4</string>
+    <string name="lock_pattern_size_5" translatable="false">5x5</string>
+    <string name="lock_pattern_size_6" translatable="false">6x6</string>
+    <string name="lock_settings_picker_title">Wybierz blokadę ekranu</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Witaj świecie!</string>
+    <string name="action_settings">Ustawienia</string>
+
+    <!-- Title for preference that disables unlock security [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_off_title">Brak</string>
+    <!-- Summary for preference that disables unlock security [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_off_summary"></string>
+
+    <!-- Title for preference that disables unlock security [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_none_title">Przeciąganie</string>
+    <!-- Summary for preference that disables unlock security [CHAR LIMIT=45]-->
+    <string name="unlock_set_unlock_none_summary">Brak zabezpieczenia</string>
+
+    <!-- Title for preference that guides the user through a weak biometric lock [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_biometric_weak_title">Face Unlock</string>
+    <!-- Summary for preference that disables unlock security [CHAR LIMIT=45]-->
+    <string name="unlock_set_unlock_biometric_weak_summary">Słabe zabezpieczenie, eksperymentalne</string>
+
+    <!-- Title for preference that guides the user through creating an unlock pattern [CHAR LIMIT=22]-->
+    <string name="unlock_set_unlock_pattern_title">Wzór 3x3</string>
+
+    <!-- Title for preference that guides the user through creating an unlock pattern [CHAR LIMIT=22]-->
+    <string name="unlock_set_unlock_pattern_title_4x4">Wzór 4x4</string>
+    <!-- Title for preference that guides the user through creating an unlock pattern [CHAR LIMIT=22]-->
+    <string name="unlock_set_unlock_pattern_title_5x5">Wzór 5x5</string>
+    <!-- Title for preference that guides the user through creating an unlock pattern [CHAR LIMIT=22]-->
+    <string name="unlock_set_unlock_pattern_title_6x6">Wzór 6x6</string>
+    <!-- Summary for preference that guides the user through creating an unlock pattern [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_pattern_summary">Średnie zabezpieczenie</string>
+
+    <!-- Title for preference that guides the user through creating an unlock PIN (Personal Identification Number) [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_pin_title">PIN</string>
+
+    <!-- Title for preference that guides the user through creating an unlock password [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_password_title">Hasło</string>
+</resources>
